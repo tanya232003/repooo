@@ -3,7 +3,8 @@ let screen= document.querySelector('.screen');
 let buttons= document.querySelectorAll('.btn');
 let equal= document.querySelector('.btn-equal');
 let clear= document.querySelector('.btn-clear');
-
+let b = 10
+console.log(b);
 buttons.forEach(function(button)
 {
     button.addEventListener('click', function(e)
@@ -29,3 +30,5 @@ clear.addEventListener('click',function(e){
     screen.value="";
 })
 })();
+
+// abcdefgh
